@@ -1,4 +1,3 @@
-```python
 For example, if one expects a `tf.float32` sparse feature `ft` and three
   serialized `Example`s are provided:
 
@@ -136,5 +135,3 @@ For example, if one expects a `tf.float32` sparse feature `ft` and three
         dense_shape=[2, 100]),
   }
   ```
-
-```
