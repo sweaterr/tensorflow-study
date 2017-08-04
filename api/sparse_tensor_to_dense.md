@@ -1,3 +1,4 @@
+```python
 st = tf.SparseTensor(indices=[[0, 0], [1, 2]], values=[1, 2], dense_shape=[3, 4])
 
 st.indices, st.values, st.dense_shape
@@ -19,3 +20,4 @@ represents the dense tensor
 
 tf.sparse_to_dense(st.indices, st.dense_shape, st.values)
 # <tf.Tensor 'SparseToDense_1:0' shape=(3, 4) dtype=int32>
+```
