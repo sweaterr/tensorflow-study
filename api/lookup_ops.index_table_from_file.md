@@ -1,4 +1,7 @@
-"Returns a lookup table that converts a string tensor into int64 IDs.
+```python
+from tensorflow.python.ops import lookup_ops
+```
+Returns a lookup table that converts a string tensor into int64 IDs.
 
   This operation constructs a lookup table to convert tensor of strings into
   int64 IDs. The mapping can be initialized from a vocabulary file specified in
