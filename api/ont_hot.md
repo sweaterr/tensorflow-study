@@ -1,3 +1,7 @@
+Signature: tf.one_hot(indices, depth, on_value=None, off_value=None, axis=None, dtype=None, name=None)
+
+Returns a one-hot tensor.
+
 Examples
 =========
 
